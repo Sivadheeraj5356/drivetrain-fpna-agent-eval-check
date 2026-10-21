@@ -1,0 +1,11 @@
+{
+  "financeTask": "Explain monthly budget variance for one approved test department.",
+  "dataSource": "Synthetic finance warehouse extract approved for agent evaluation, not live customer data.",
+  "calculationContract": "Return variance amount, variance percent, top three drivers, source rows, and calculation date.",
+  "retrievalContext": "Use only budget, actual, and driver tables for the selected month and prior month.",
+  "toolPermission": "The agent may query the read-only evaluation schema and may not update records or call external services.",
+  "baseline": "Compare with the deterministic SQL analyst baseline on 12 known variance cases.",
+  "acceptanceMetric": "Match the baseline on at least 90% of amount and percent calculations with no missing sources.",
+  "auditEvidence": "Keep prompt version, retrieved rows, tool calls, generated explanation, reviewer decision, and run timestamp.",
+  "reviewOwner": "FP&A reviewer and engineering owner"
+}
