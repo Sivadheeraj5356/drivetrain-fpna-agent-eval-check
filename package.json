@@ -1,0 +1,14 @@
+{
+  "name": "drivetrain-fpna-agent-eval-check",
+  "version": "1.0.0",
+  "description": "Evaluation readiness checks for FP&A AI agents",
+  "type": "module",
+  "main": "src/eval-check.js",
+  "scripts": {
+    "test": "node --test",
+    "check": "node src/cli.js examples/variance-explanation-agent.json"
+  },
+  "keywords": ["drivetrain", "fpna", "agentic-ai", "rag", "llm-evaluation"],
+  "author": "Siva Dheeraj",
+  "license": "MIT"
+}
